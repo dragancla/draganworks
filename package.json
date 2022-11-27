@@ -1,0 +1,15 @@
+{
+  "name": "adragan",
+  "version": "1.0.4",
+  "private": true,
+  "homepage": "https://www.adragan.com",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "^3.4.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  }
+}
