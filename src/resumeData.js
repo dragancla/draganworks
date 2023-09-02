@@ -52,7 +52,7 @@ const resumeData = {
     "work":[
       {
         "CompanyName": "Regent AB",
-        "Specialization": "Test Automation DevOps Engineer",
+        "Specialization": "Test Automation & DevOps Engineer consultant",
         "DateOfStarting": "March 2021",
         "DateOfLeaving": "Present",
         "clients": [
@@ -104,40 +104,39 @@ const resumeData = {
           },
           {
             "id": 4,
-            "name": "Hallon → October 2022 - Present",
+            "name": "Hallon → October 2022 - July 2023",
             "tech": [
-              "Development: Node",
+              "Development: Typescript, Bash, Python",
               "VCS: GitHub",
-              "Test frameworks: Cypress",
-              "Infrastructure & CI: Azure, Azure DevOps",
+              "Test frameworks: Cypress, Jest",
+              "Infrastructure & CI: Azure & Azure DevOps",
             ],
             "focus": [ 
               "Build the test automation framework with Cypress",
               "Dockerizing the test automation framework and creating test pipelines in Azure DevOps",
               "Create reporters that post results via webhooks to Slack and build status checks",
               "Create and deploy testing tools and dashboards via Azure Container Apps",
-              "Infrastructure support for testing locally and in build pipeline"
+              "Infrastructure support for testing locally and in build pipeline",
+              "Set up Azure Container Apps infrastructure",
+              "Optimizations and mainteinance of web build and deploy pipelines",
+              "Creation of build and release pipelines for Apple Testflight and Google Console",
+              "Maintenence and upgrade of Kubernetes cluster and associated node pools",
+              "Upgrading and deploying services to Kubernetes",
+              "Set up monitoring and alerts with Prometheus, Grafana and Application Insights"
             ]
           },
-      ],
-        "Customer1": "Klarna → March 2021 - Present",
-        "Achievements1": [
-          "Strategies for testing stability and flakiness",
-          "Tooling support for testing isolated features/packages and native apps",
-          "Adaptive testing: only run the tests related to specific code changes",
-          "Infrastructure support for testing locally and in build pipeline"
         ],
       },
       {
         "CompanyName": "LeoVegas AB",
-        "Specialization": "Test Automation DevOps Engineer",
+        "Specialization": "Test Automation & DevOps Engineer",
         "DateOfStarting": "September 2018",
         "DateOfLeaving": "March 2021",
         "Achievements":[
           "Setting up best practices and newest technologies in test automation",
           "Upgrading and expanding the automated test frameworks",
           "Automating load testing & reporting",
-          "Maintaining test automation processes through CI / CD",
+          "Maintaining test automation processes through CI/CD",
           "Verifying that build and deploy pipelines are running and evaluating tests correctly",
           "Teaching test automation procedures and best practices within the company",
           "Ensuring that different kinds of tests cover the most important and relevant aspects of company services and applications"

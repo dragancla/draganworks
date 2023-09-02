@@ -1,12 +1,12 @@
 {
   "name": "adragan",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "private": true,
   "homepage": "https://dragancla.github.io/adragan",
   "dependencies": {
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-scripts": "^3.4.3"
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-scripts": "3.4.3"
   },
   "scripts": {
     "predeploy": "npm run build",
@@ -15,7 +15,7 @@
     "build": "react-scripts build"
   },
   "devDependencies": {
-    "gh-pages": "^4.0.0"
+    "gh-pages": "4.0.0"
   },
   "browserslist": {
     "production": [
