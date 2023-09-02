@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "07b0f1aead7b436567a869901ba48a0a",
+    "revision": "e3388b2430b9c5620fa2608ba49fc220",
     "url": "/adragan/index.html"
   },
   {
-    "revision": "293f7f4c02fd772b43a6",
+    "revision": "6cd9543598e6b100749b",
     "url": "/adragan/static/css/main.e8c24495.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/adragan/static/js/2.aec7b878.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "293f7f4c02fd772b43a6",
-    "url": "/adragan/static/js/main.9ab4ec31.chunk.js"
+    "revision": "6cd9543598e6b100749b",
+    "url": "/adragan/static/js/main.02c1881f.chunk.js"
   },
   {
     "revision": "35074ec9a309b75e4c42",
