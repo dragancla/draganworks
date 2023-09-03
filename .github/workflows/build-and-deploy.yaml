@@ -21,7 +21,8 @@ jobs:
           cache-dependency-path: yarn.lock
 
       - name: Restore cache ⏩
-        with: actions/cache@v3
+        uses: actions/cache@v3
+        with:
           path: |
             .next/cache
           # Generate a new cache whenever packages or source files change.
@@ -29,7 +30,7 @@ jobs:
           # If source files changed but packages didn't, rebuild from a prior cache.
           restore-keys: |
             ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json', '**/yarn.lock') }}-
-            
+
       - name: Install dependencies 📦
         run: |
           yarn install --frozen-lockfile
