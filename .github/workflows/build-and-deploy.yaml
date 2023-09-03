@@ -21,7 +21,7 @@ jobs:
           cache-dependency-path: yarn.lock
 
       - name: Restore cache ⏩
-        uses: actions/cache@v3
+        with: actions/cache@v3
           path: |
             .next/cache
           # Generate a new cache whenever packages or source files change.

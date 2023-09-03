@@ -77,23 +77,19 @@ module.exports = nextConfig;
 ├── next.config.js
 ```
 
-### 5. Set up GitHub Actions
+### 6. Configure the GitHub Repository
 
-### 6. Configure Github Repository
-
-Next you need to configure Github for automated deployments via GitHub Actions.
+Next you need to configure GitHub for automated deployments via GitHub Actions.
 
 The following settings use the new [Github Action Workflow](https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/) to deploy.
 
 1. Go to your repository's **Settings** tab
 2. Click "Pages" in the sidebar
-3. Under "Build and Deployment", select "Github Actions" as the source:
+3. Under "Build and Deployment", select "GitHub Actions" as the source:
 
 ![screenshot of github pages settings](https://github.com/gregrickaby/nextjs-github-pages/assets/200280/a5f757c3-f515-4ca2-aadf-d2979c2c3bf5)
 
 ### 7. Setup GitHub Actions
-
-This is where the magic happens! This [workflow file](https://github.com/gregrickaby/nextjs-github-pages/blob/main/.github/workflows/deploy.yml) will automatically build and deploy the app when you push to the `main` branch.
 
 1. Create a `build-and-deploy.yaml` file in the `/.github/workflows` directory
 
@@ -106,10 +102,10 @@ This is where the magic happens! This [workflow file](https://github.com/gregric
 ├── next.config.js
 ```
 
-2. Use the contents of <https://github.com/gregrickaby/nextjs-github-pages/blob/main/.github/workflows/deploy.yml> as a baseline and set up your own version of the pipeline. Or just use the entire file.
+2. Use the contents of [this workflow file](https://github.com/gregrickaby/nextjs-github-pages/blob/main/.github/workflows/deploy.yml) as a baseline and set up your own version of the pipeline. Or just use the entire file. This will automatically build and deploy the app when you push to the `main` branch.
 
 ### 8. Push to Github
 
-Now that everything is configured, you can push your code to Github. This will trigger the Github Action workflow and deploy your app to Github Pages.
+Now that everything is configured, you can push your code to GitHub. This will trigger the Github Action workflow and deploy your app to GitHub Pages.
 
 You should see the website deployed to GitHub Pages in a few minutes. 🚀
