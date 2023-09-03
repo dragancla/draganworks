@@ -18,12 +18,10 @@ jobs:
         with:
           node-version: 18.16.0
           registry-url: 'https://registry.npmjs.org'
-          cache: yarn
-          cache-dependency-path: yarn.lock
 
-      - name: Install dependencies 📋
+      - name: Install dependencies 📦
         run: |
-          yarn install
+          yarn install --frozen-lockfile
 
       - name: Build 🛠️
         run: |
