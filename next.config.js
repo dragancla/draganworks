@@ -1,18 +1,5 @@
 /* eslint-env node */
 
-// const isGithubActions = process.env.GITHUB_ACTIONS || false
-
-// let assetPrefix = ''
-// let basePath = '/'
-
-// if (isGithubActions) {
-//   const repo = process.env.GITHUB_REPOSITORY.replace(/.*?\//, '')
-
-//   assetPrefix = `/${repo}/`
-//   basePath = `/${repo}`
-// }
-
-
 // https://github.com/vercel/next.js/blob/master/packages/next/next-server/server/config.ts
 const nextConfig = {
   webpack: config => {
@@ -28,9 +15,6 @@ const nextConfig = {
 
     return config;
   },
-  // assetPrefix: assetPrefix,
-  // basePath: basePath,
-  
   output: 'export',
   compress: true,
   generateEtags: true,

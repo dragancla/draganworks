@@ -21,12 +21,15 @@ SkillGroup.displayName = 'SkillGroup';
 export const Skill: FC<{skill: SkillType}> = memo(({skill}) => {
   const {name, level, max = 10} = skill;
   const percentage = useMemo(() => Math.round((level / max) * 100), [level, max]);
-  const bubbleClass = level !== 0 ? "h-1 w-full overflow-hidden rounded-full bg-neutral-300" : "";
-  const listElement =  level !== 0 ? "" : "- ";
+  const bubbleClass = level !== 0 ? 'h-1 w-full overflow-hidden rounded-full bg-neutral-300' : '';
+  const listElement = level !== 0 ? '' : '- ';
 
   return (
     <div className="flex flex-col">
-      <span className="ml-2 text-sm font-medium">{listElement}{name}</span>
+      <span className="ml-2 text-sm font-medium">
+        {listElement}
+        {name}
+      </span>
       <div className={`${bubbleClass}`}>
         <div className="h-full rounded-full bg-orange-400" style={{width: `${percentage}%`}} />
       </div>
