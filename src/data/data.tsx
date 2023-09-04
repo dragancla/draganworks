@@ -324,24 +324,24 @@ export const experience: TimelineItem[] = [
       <div>
         <p>
           <b>Development:</b>
-        </p>
-        <li>
-          JavaScript, TypeScript, Bash, Python, YAML, Cypress, Jest, Azure DevOps, GitHub, Kubernetes, Microsoft Azure
-        </li>
-        <p>
+          <p>
+            JavaScript, TypeScript, Bash, Python, YAML, Cypress, Jest, Azure DevOps, GitHub, Kubernetes, Microsoft Azure
+          </p>
           <b>My focus:</b>
         </p>
-        <li>Build the test automation framework with Cypress</li>
-        <li>Dockerizing the test automation framework and creating test pipelines in Azure DevOps</li>
-        <li>Create reporters that post results via webhooks to Slack and build status checks</li>
-        <li>Create and deploy testing tools and dashboards via Azure Container Apps</li>
-        <li>Infrastructure support for testing locally and in the build pipelines</li>
-        <li>Set up Azure Container Apps infrastructure</li>
-        <li>Optimizations and mainteinance of web build and deploy pipelines</li>
-        <li>Creation of build and release pipelines for Apple Testflight and Google Console</li>
-        <li>Maintenence and upgrade of Kubernetes cluster and associated node pools</li>
-        <li>Upgrading and deploying services to Kubernetes</li>
-        <li>Set up monitoring and alerts with Prometheus, Grafana and Application Insights</li>
+        <ul className="flex flex-col text-left list-disc">
+          <li>Build the test automation framework with Cypress</li>
+          <li>Dockerizing the test automation framework and creating test pipelines in Azure DevOps</li>
+          <li>Create reporters that post results via webhooks to Slack and build status checks</li>
+          <li>Create and deploy testing tools and dashboards via Azure Container Apps</li>
+          <li>Infrastructure support for testing locally and in the build pipelines</li>
+          <li>Set up Azure Container Apps infrastructure</li>
+          <li>Optimizations and mainteinance of web build and deploy pipelines</li>
+          <li>Creation of build and release pipelines for Apple Testflight and Google Console</li>
+          <li>Maintenence and upgrade of Kubernetes cluster and associated node pools</li>
+          <li>Upgrading and deploying services to Kubernetes</li>
+          <li>Set up monitoring and alerts with Prometheus, Grafana and Application Insights</li>
+        </ul>
       </div>
     ),
   },
@@ -354,15 +354,17 @@ export const experience: TimelineItem[] = [
         <p>
           <b>Development:</b>
         </p>
-        <li>JavaScript, TypeScript, YAML, Playwright, Jest, GitHub, Kubernetes, GCP</li>
+        <p>JavaScript, TypeScript, YAML, Playwright, Jest, GitHub, Kubernetes, GCP</p>
         <p>
           <b>My focus:</b>
         </p>
-        <li>Build the test automation framework with Playwright</li>
-        <li>API testing with Jest, SuperTest and Postman</li>
-        <li>Build and deploy test infrastructure with Cloud Build and Cloud Run</li>
-        <li>Dockerizing the test automation framework and creating test pipelines in GCP</li>
-        <li>Create reporters that post results via webhooks to Slack and build status checks</li>
+        <ul className="flex flex-col text-left list-disc">
+          <li>Build the test automation framework with Playwright</li>
+          <li>API testing with Jest, SuperTest and Postman</li>
+          <li>Build and deploy test infrastructure with Cloud Build and Cloud Run</li>
+          <li>Dockerizing the test automation framework and creating test pipelines in GCP</li>
+          <li>Create reporters that post results via webhooks to Slack and build status checks</li>
+        </ul>
       </div>
     ),
   },
@@ -375,15 +377,17 @@ export const experience: TimelineItem[] = [
         <p>
           <b>Development:</b>
         </p>
-        <li>Python, jMeter, GitLab CI, Kubernetes, Flux</li>
+        <p>Python, jMeter, GitLab CI, Kubernetes, Flux</p>
         <p>
           <b>My focus:</b>
         </p>
-        <li>SMS and SMTP protocol testing</li>
-        <li>Setting up best practices test automation processes</li>
-        <li>Upgrading and expanding the automated test frameworks</li>
-        <li>Automating load testing & reporting</li>
-        <li>Maintaining test automation processes through CI/CD</li>
+        <ul className="flex flex-col text-left list-disc">
+          <li>SMS and SMTP protocol testing</li>
+          <li>Setting up best practices test automation processes</li>
+          <li>Upgrading and expanding the automated test frameworks</li>
+          <li>Automating load testing & reporting</li>
+          <li>Maintaining test automation processes through CI/CD</li>
+        </ul>
       </div>
     ),
   },
@@ -395,18 +399,18 @@ export const experience: TimelineItem[] = [
       <div>
         <p>
           <b>Development:</b>
-        </p>
-        <li>
-          JavaScript, Groovy, Bash, Cypress, WebdriverIO, Appium, BrowserStack, Jenkins, BitBucket, Kubernetes, AWS
-        </li>
-        <p>
+          <p>
+            JavaScript, Groovy, Bash, Cypress, WebdriverIO, Appium, BrowserStack, Jenkins, BitBucket, Kubernetes, AWS
+          </p>
           <b>My focus:</b>
         </p>
-        <li>Upgrading and expanding the automated test frameworks: WebdriverIO and Cypress</li>
-        <li>Jenkins pipeline features and maintenence</li>
-        <li>React component testing and native app testing</li>
-        <li>Tooling support for testing isolated features/packages</li>
-        <li>Adaptive testing support, only run tests related to specific code changes</li>
+        <ul className="flex flex-col text-left list-disc">
+          <li>Upgrading and expanding the automated test frameworks: WebdriverIO and Cypress</li>
+          <li>Jenkins pipeline features and maintenence</li>
+          <li>React component testing and native app testing</li>
+          <li>Tooling support for testing isolated features/packages</li>
+          <li>Adaptive testing support, only run tests related to specific code changes</li>
+        </ul>
       </div>
     ),
   },
@@ -425,19 +429,21 @@ export const experience: TimelineItem[] = [
         <p>
           <b>Development:</b>
         </p>
-        <li>
+        <p>
           JavaScript, Groovy, Bash, Java, YAML, WebdriverIO, Appium, Artillery, SuperTest, Pact, Jenkins, GitHub,
           Kubernetes, GCP
-        </li>
+        </p>
         <p>
           <b>My focus:</b>
         </p>
-        <li>Setting up best practices and newest technologies in test automation</li>
-        <li>Upgrading and expanding the automated test frameworks: WebdriverIO, SuperTest and Pact</li>
-        <li>Configuring and maintaining an on-site mixed-device farm</li>
-        <li>Automating load testing & reporting with jMeter and Artillery</li>
-        <li>Maintaining test automation tools and environments through CI/CD in Jenkins and Kubernetes</li>
-        <li>Teaching test automation procedures and best practices within the company</li>
+        <ul className="flex flex-col text-left list-disc">
+          <li>Setting up best practices and newest technologies in test automation</li>
+          <li>Upgrading and expanding the automated test frameworks: WebdriverIO, SuperTest and Pact</li>
+          <li>Configuring and maintaining an on-site mixed-device farm</li>
+          <li>Automating load testing & reporting with jMeter and Artillery</li>
+          <li>Maintaining test automation tools and environments through CI/CD in Jenkins and Kubernetes</li>
+          <li>Teaching test automation procedures and best practices within the company</li>
+        </ul>
       </div>
     ),
   },
@@ -450,20 +456,22 @@ export const experience: TimelineItem[] = [
         <p>
           <b>Development:</b>
         </p>
-        <li>Proprietary Python framework, Bamboo, BitBucket</li>
+        <p>Proprietary Python framework, Bamboo, BitBucket</p>
         <p>
           <b>My focus:</b>
         </p>
-        <li>Reviewing and commenting on product specifications and designs</li>
-        <li>Creating test plans and test cases</li>
-        <li>Performing tests against builds and test procedures</li>
-        <li>Designing and implementing automated test suites in Python</li>
-        <li>
-          Analyzing various problems which can occur with our products in various market scenarios and identifying the
-          root cause
-        </li>
-        <li>Ensuring the product fulfills all target requirements before each release</li>
-        <li>Maintaining test automation procedures and best practices in Confluence</li>
+        <ul className="flex flex-col text-left list-disc">
+          <li>Reviewing and commenting on product specifications and designs</li>
+          <li>Creating test plans and test cases</li>
+          <li>Performing tests against builds and test procedures</li>
+          <li>Designing and implementing automated test suites in Python</li>
+          <li>
+            Analyzing various problems which can occur with our products in various market scenarios and identifying the
+            root cause
+          </li>
+          <li>Ensuring the product fulfills all target requirements before each release</li>
+          <li>Maintaining test automation procedures and best practices in Confluence</li>
+        </ul>
       </div>
     ),
   },
@@ -505,7 +513,7 @@ export const contact: ContactSection = {
     {
       type: ContactType.LinkedIn,
       text: 'Anton Dragan',
-      href: 'https://www.linkedin.com/in/claudiu-dragan',
+      href: 'https://www.linkedin.com/in/anton-dragan',
     },
   ],
 };
@@ -515,7 +523,7 @@ export const contact: ContactSection = {
  */
 export const socialLinks: Social[] = [
   {label: 'Github', Icon: GithubIcon, href: 'https://github.com/dragancla'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/claudiu-dragan'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/anton-dragan'},
   {label: 'E-mail', Icon: EnvelopeIcon, href: 'mailto:anton@dragan.works'},
   {label: 'Phone', Icon: DevicePhoneMobileIcon, href: 'tel:+46 70 146 90 74'},
 ];
