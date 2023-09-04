@@ -312,7 +312,9 @@ export const experience: TimelineItem[] = [
     title: 'Self-employed consultant',
     content: (
       <div>
-        <p>In October 2023 I have started my own company and I've been working as a contract consultant ever since.</p>
+        <p className="text-left">
+          In October 2023 I have started my own company and I've been working as a contract consultant ever since.
+        </p>
       </div>
     ),
   },
@@ -323,13 +325,13 @@ export const experience: TimelineItem[] = [
     content: (
       <div>
         <p>
-          <b>Development:</b>
-          <p>
-            JavaScript, TypeScript, Bash, Python, YAML, Cypress, Jest, Azure DevOps, GitHub, Kubernetes, Microsoft Azure
-          </p>
-          <b>My focus:</b>
+          <b>DEVELOPMENT/TOOLING:</b>
         </p>
-        <ul className="flex flex-col text-left list-disc">
+        <p className="text-left my-1">
+          JavaScript, TypeScript, Bash, Python, YAML, Cypress, Jest, Azure DevOps, GitHub, Kubernetes, Microsoft Azure
+        </p>
+        <b>MY FOCUS:</b>
+        <ul className="flex flex-col text-left list-square ml-5">
           <li>Build the test automation framework with Cypress</li>
           <li>Dockerizing the test automation framework and creating test pipelines in Azure DevOps</li>
           <li>Create reporters that post results via webhooks to Slack and build status checks</li>
@@ -352,13 +354,13 @@ export const experience: TimelineItem[] = [
     content: (
       <div>
         <p>
-          <b>Development:</b>
+          <b>DEVELOPMENT/TOOLING:</b>
         </p>
-        <p>JavaScript, TypeScript, YAML, Playwright, Jest, GitHub, Kubernetes, GCP</p>
+        <p className="text-left my-1">JavaScript, TypeScript, YAML, Playwright, Jest, GitHub, Kubernetes, GCP</p>
         <p>
-          <b>My focus:</b>
+          <b>MY FOCUS:</b>
         </p>
-        <ul className="flex flex-col text-left list-disc">
+        <ul className="flex flex-col text-left list-square ml-5">
           <li>Build the test automation framework with Playwright</li>
           <li>API testing with Jest, SuperTest and Postman</li>
           <li>Build and deploy test infrastructure with Cloud Build and Cloud Run</li>
@@ -375,13 +377,13 @@ export const experience: TimelineItem[] = [
     content: (
       <div>
         <p>
-          <b>Development:</b>
+          <b>DEVELOPMENT/TOOLING:</b>
         </p>
-        <p>Python, jMeter, GitLab CI, Kubernetes, Flux</p>
+        <p className="text-left my-1">Python, jMeter, GitLab CI, Kubernetes, Flux</p>
         <p>
-          <b>My focus:</b>
+          <b>MY FOCUS:</b>
         </p>
-        <ul className="flex flex-col text-left list-disc">
+        <ul className="flex flex-col text-left list-square ml-5">
           <li>SMS and SMTP protocol testing</li>
           <li>Setting up best practices test automation processes</li>
           <li>Upgrading and expanding the automated test frameworks</li>
@@ -398,13 +400,13 @@ export const experience: TimelineItem[] = [
     content: (
       <div>
         <p>
-          <b>Development:</b>
-          <p>
-            JavaScript, Groovy, Bash, Cypress, WebdriverIO, Appium, BrowserStack, Jenkins, BitBucket, Kubernetes, AWS
-          </p>
-          <b>My focus:</b>
+          <b>DEVELOPMENT/TOOLING:</b>
         </p>
-        <ul className="flex flex-col text-left list-disc">
+        <p className="text-left my-1">
+          JavaScript, Groovy, Bash, Cypress, WebdriverIO, Appium, BrowserStack, Jenkins, BitBucket, Kubernetes, AWS
+        </p>
+        <b>MY FOCUS:</b>
+        <ul className="flex flex-col text-left list-square ml-5">
           <li>Upgrading and expanding the automated test frameworks: WebdriverIO and Cypress</li>
           <li>Jenkins pipeline features and maintenence</li>
           <li>React component testing and native app testing</li>
@@ -415,10 +417,15 @@ export const experience: TimelineItem[] = [
     ),
   },
   {
-    date: 'March 2021 - October 2023',
+    date: 'March 2021',
     location: 'Regent AB',
     title: 'Test Automation & DevOps Engineer',
-    content: <p>I was employed as a consultant at Regent AB where I had 4 clients, listed above.</p>,
+    content: (
+      <p className="text-left my-1">
+        I was employed as a consultant at Regent AB between March 2021 and October 2023 where I had 4 clients, listed
+        above.
+      </p>
+    ),
   },
   {
     date: 'September 2018 - March 2021',
@@ -427,16 +434,16 @@ export const experience: TimelineItem[] = [
     content: (
       <div>
         <p>
-          <b>Development:</b>
+          <b>DEVELOPMENT/TOOLING:</b>
         </p>
-        <p>
+        <p className="text-left my-1">
           JavaScript, Groovy, Bash, Java, YAML, WebdriverIO, Appium, Artillery, SuperTest, Pact, Jenkins, GitHub,
           Kubernetes, GCP
         </p>
         <p>
-          <b>My focus:</b>
+          <b>MY FOCUS:</b>
         </p>
-        <ul className="flex flex-col text-left list-disc">
+        <ul className="flex flex-col text-left list-square ml-5">
           <li>Setting up best practices and newest technologies in test automation</li>
           <li>Upgrading and expanding the automated test frameworks: WebdriverIO, SuperTest and Pact</li>
           <li>Configuring and maintaining an on-site mixed-device farm</li>
@@ -454,13 +461,13 @@ export const experience: TimelineItem[] = [
     content: (
       <div>
         <p>
-          <b>Development:</b>
+          <b>DEVELOPMENT/TOOLING:</b>
         </p>
-        <p>Proprietary Python framework, Bamboo, BitBucket</p>
+        <p className="text-left my-1">Proprietary Python framework, Bamboo, BitBucket</p>
         <p>
-          <b>My focus:</b>
+          <b>MY FOCUS:</b>
         </p>
-        <ul className="flex flex-col text-left list-disc">
+        <ul className="flex flex-col text-left list-square ml-5">
           <li>Reviewing and commenting on product specifications and designs</li>
           <li>Creating test plans and test cases</li>
           <li>Performing tests against builds and test procedures</li>
