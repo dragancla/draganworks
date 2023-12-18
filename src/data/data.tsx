@@ -65,10 +65,10 @@ export const heroData: Hero = {
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         I'm a Stockholm-based <strong className="text-stone-100">Test Automation and DevOps Engineer</strong> consultant
-        with 10 years of experience.{' '}
+        with 10 years of IT experience.{' '}
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I specialize in platform development, with a focus on frameworks, tools, pipelines and infrastructure.
+        I specialize in platform development, with a focus on frameworks, tooling, pipelines and infrastructure.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         I believe that to be successful in life one needs to be obsessive with their dreams and keep working towards
@@ -96,7 +96,7 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `I'm an IT consultant with 10 years of experience, predominantly focusing on DevOps and Test Automation. I am engaged in multiple parts of software development, continuously learning new languages and am very interested in trying out emerging technologies and solutions. Klarna, Sinch and Hallon are some of my most recent clients.`,
+  description: `I'm an IT consultant with 10 years of experience, predominantly focusing on DevOps and Test Automation. I am engaged in multiple parts of software development, continuously learning new languages and am very interested in trying out emerging technologies and solutions. Klarna, Sinch, Hallon and Tink are some of my most recent clients.`,
   aboutItems: [
     {label: 'Location', text: 'Stockholm, Sweden', Icon: MapIcon},
     {label: 'Age', text: '31', Icon: CalendarIcon},
@@ -307,14 +307,37 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'October 2023 - Present',
+    date: 'February 2024 - Present',
     location: 'DraganWorks AB',
     title: 'Self-employed consultant',
     content: (
       <div>
         <p className="text-left">
-          In October 2023 I have started my own company and I've been working as a contract consultant ever since.
+          In 2024 I have started my own company and I've been working as a contract consultant ever since.
         </p>
+      </div>
+    ),
+  },
+  {
+    date: 'November 2023 - February 2024',
+    location: 'Tink AB',
+    title: 'Test Automation & DevOps Consultant',
+    content: (
+      <div>
+        <p>
+          <b>DEVELOPMENT/TOOLING:</b>
+        </p>
+        <p className="text-left my-1">
+          JavaScript, TypeScript, Java, Pact, Jest, Amazon AWS, GitHub Actions, Buildkite, Kubernetes
+        </p>
+        <b>MY FOCUS:</b>
+        <ul className="flex flex-col text-left list-square ml-5">
+          <li>Assess and create a detailed report of Tink's testing practices and suggest improvements</li>
+          <li>Build the contract testing framework for frontend and backend services (REST and GRPC)</li>
+          <li>Create testing pipelines in GitHub Actions and Buildkite</li>
+          <li>Deploy and maintain contract testing infrastructure to Kubernetes via Helm charts</li>
+          <li>Infrastructure support for testing locally and in the build pipelines</li>
+        </ul>
       </div>
     ),
   },
@@ -335,9 +358,8 @@ export const experience: TimelineItem[] = [
           <li>Build the test automation framework with Cypress</li>
           <li>Dockerizing the test automation framework and creating test pipelines in Azure DevOps</li>
           <li>Create reporters that post results via webhooks to Slack and build status checks</li>
-          <li>Create and deploy testing tools and dashboards via Azure Container Apps</li>
+          <li>Set up infrastructure and deploy testing tools and dashboards via Azure Container Apps</li>
           <li>Infrastructure support for testing locally and in the build pipelines</li>
-          <li>Set up Azure Container Apps infrastructure</li>
           <li>Optimizations and mainteinance of web build and deploy pipelines</li>
           <li>Creation of build and release pipelines for Apple Testflight and Google Console</li>
           <li>Maintenence and upgrade of Kubernetes cluster and associated node pools</li>
@@ -422,7 +444,7 @@ export const experience: TimelineItem[] = [
     title: 'Test Automation & DevOps Engineer',
     content: (
       <p className="text-left my-1">
-        I was employed as a consultant at Regent AB between March 2021 and October 2023 where I had 4 clients, listed
+        I was employed as a consultant at Regent AB between March 2021 and February 2024 where I had 5 clients, listed
         above.
       </p>
     ),
