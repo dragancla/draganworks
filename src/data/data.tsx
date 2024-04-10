@@ -99,9 +99,9 @@ export const aboutData: About = {
   description: `I'm an IT consultant with 10 years of experience, predominantly focusing on DevOps and Test Automation. I am engaged in multiple parts of software development, continuously learning new languages and am very interested in trying out emerging technologies and solutions. Klarna, Sinch, Hallon and Tink are some of my most recent clients.`,
   aboutItems: [
     {label: 'Location', text: 'Stockholm, Sweden', Icon: MapIcon},
-    {label: 'Age', text: '31', Icon: CalendarIcon},
+    {label: 'Age', text: '32', Icon: CalendarIcon},
     {label: 'Nationality', text: 'Romanian', Icon: FlagIcon},
-    {label: 'Interests', text: 'Snowboarding & home improvement', Icon: SparklesIcon},
+    {label: 'Interests', text: 'Snowboarding and gardening', Icon: SparklesIcon},
     {label: 'Study', text: `Master's in Cybersecurity`, Icon: AcademicCapIcon},
     {label: 'Employment', text: 'Self-employed at DraganWorks AB', Icon: BuildingOffice2Icon},
   ],
@@ -115,11 +115,15 @@ export const skills: SkillGroup[] = [
     name: 'Programming languages',
     skills: [
       {
-        name: 'JavaScript',
+        name: 'Node',
         level: 0,
       },
       {
-        name: 'TypeScript',
+        name: 'Java',
+        level: 0,
+      },
+      {
+        name: 'Python',
         level: 0,
       },
       {
@@ -134,14 +138,10 @@ export const skills: SkillGroup[] = [
         name: 'Groovy',
         level: 0,
       },
-      {
-        name: 'Python',
-        level: 0,
-      },
     ],
   },
   {
-    name: 'Test Automation Frameworks',
+    name: 'Test automation Frameworks',
     skills: [
       {
         name: 'Cypress',
@@ -170,7 +170,7 @@ export const skills: SkillGroup[] = [
     ],
   },
   {
-    name: 'Pipelines',
+    name: 'CI/CD processes',
     skills: [
       {
         name: 'Azure DevOps',
@@ -185,7 +185,7 @@ export const skills: SkillGroup[] = [
         level: 0,
       },
       {
-        name: 'Bamboo',
+        name: 'BuildKite',
         level: 0,
       },
       {
@@ -307,19 +307,19 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'February 2024 - Present',
+    date: 'April 2024 - Present',
     location: 'DraganWorks AB',
     title: 'Self-employed consultant',
     content: (
       <div>
         <p className="text-left">
-          In 2024 I have started my own company and I've been working as a contract consultant ever since.
+          In April 2024 I have started my company DraganWorks AB and have since been working as a freelance consultant.
         </p>
       </div>
     ),
   },
   {
-    date: 'November 2023 - February 2024',
+    date: 'November 2023 - April 2024',
     location: 'Tink AB',
     title: 'Test Automation & DevOps Consultant',
     content: (
@@ -333,10 +333,10 @@ export const experience: TimelineItem[] = [
         <b>MY FOCUS:</b>
         <ul className="flex flex-col text-left list-square ml-5">
           <li>Assess and create a detailed report of Tink's testing practices and suggest improvements</li>
-          <li>Build the contract testing framework for frontend and backend services (REST and GRPC)</li>
+          <li>Build the contract testing framework for frontend and backend services (REST, gRPC and Kafka)</li>
           <li>Create testing pipelines in GitHub Actions and Buildkite</li>
           <li>Deploy and maintain contract testing infrastructure to Kubernetes via Helm charts</li>
-          <li>Infrastructure support for testing locally and in the build pipelines</li>
+          <li>Infrastructure support for testing locally and within the build pipelines</li>
         </ul>
       </div>
     ),
