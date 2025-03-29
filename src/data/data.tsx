@@ -336,7 +336,7 @@ export const experience: TimelineItem[] = [
           <li>Overhaul the test automation framework with Robot Framework</li>
           <li>Migrate all the CI pipelines from Jenkins to GitHub Actions</li>
           <li>Create bash scripts to automate CI processes</li>
-          <li>Implement unit tests, code quality gates, best practices</li>
+          <li>Implement unit tests, linters, code quality gates, best practices</li>
           <li>Develop reusable workflows for iOS and Android repositories</li>
           <li>Implement feature-centric testing (only run tests related to specific code changes)</li>
           <li>Create reporters that post results via webhooks to Slack</li>
