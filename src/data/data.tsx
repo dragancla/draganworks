@@ -3,7 +3,7 @@ import {
   ArrowDownTrayIcon,
   BuildingOffice2Icon,
   CalendarIcon,
-  DevicePhoneMobileIcon,
+  PhoneIcon,
   EnvelopeIcon,
   FlagIcon,
   MapIcon,
@@ -64,11 +64,11 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Stockholm-based <strong className="text-stone-100">Test Automation and DevOps Engineer</strong> consultant
-        with 10 years of IT experience.{' '}
+        I'm a Stockholm-based <strong className="text-stone-100">DevOps and Test Automation Engineer </strong>
+        with over 10 years IT experience.{' '}
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I specialize in platform development, with a focus on frameworks, tooling, pipelines and infrastructure.
+        I specialize in platform development, with a focus on frameworks, tooling, pipelines and cloud infrastructure.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         I believe that to be successful in life one needs to be obsessive with their dreams and keep working towards
@@ -96,14 +96,14 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `I'm an IT consultant with 10 years of experience, predominantly focusing on DevOps and Test Automation. I am engaged in multiple parts of software development, continuously learning new languages and am very interested in trying out emerging technologies and solutions. Klarna, Sinch, Hallon and Tink are some of my most recent clients.`,
+  description: `I'm an IT freelance consultant with over 10 years of experience, primarily focusing on DevOps and Test Automation. Eengaged in multiple parts of software development, continuously learning new languages and very interested in trying out emerging technologies and solutions. Some of my most recent clients are Klarna, Sinch, Hallon, Tink and Volvo.`,
   aboutItems: [
-    {label: 'Location', text: 'Stockholm, Sweden', Icon: MapIcon},
-    {label: 'Age', text: '32', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Romanian', Icon: FlagIcon},
-    {label: 'Interests', text: 'Snowboarding and gardening', Icon: SparklesIcon},
-    {label: 'Study', text: `Master's in Cybersecurity`, Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Self-employed at DraganWorks AB', Icon: BuildingOffice2Icon},
+    { label: 'Location', text: 'Stockholm, Sweden', Icon: MapIcon },
+    { label: 'Age', text: '34', Icon: CalendarIcon },
+    { label: 'Nationality', text: 'Romanian/Swedish', Icon: FlagIcon },
+    { label: 'Interests', text: 'Snowboarding, gardening, AI', Icon: SparklesIcon },
+    { label: 'Study', text: `Master's in Cybersecurity`, Icon: AcademicCapIcon },
+    { label: 'Employment', text: 'Self-employed at DraganWorks AB', Icon: BuildingOffice2Icon },
   ],
 };
 
@@ -115,15 +115,15 @@ export const skills: SkillGroup[] = [
     name: 'Programming languages',
     skills: [
       {
-        name: 'Node',
-        level: 0,
-      },
-      {
-        name: 'Java',
+        name: 'JavaScript',
         level: 0,
       },
       {
         name: 'Python',
+        level: 0,
+      },
+      {
+        name: 'Java',
         level: 0,
       },
       {
@@ -141,7 +141,7 @@ export const skills: SkillGroup[] = [
     ],
   },
   {
-    name: 'Test automation Frameworks',
+    name: 'Test automation frameworks',
     skills: [
       {
         name: 'Cypress',
@@ -156,6 +156,10 @@ export const skills: SkillGroup[] = [
         level: 0,
       },
       {
+        name: 'Robot Framework',
+        level: 0,
+      },
+      {
         name: 'Appium',
         level: 0,
       },
@@ -163,14 +167,10 @@ export const skills: SkillGroup[] = [
         name: 'Pact',
         level: 0,
       },
-      {
-        name: 'jMeter',
-        level: 0,
-      },
     ],
   },
   {
-    name: 'CI/CD processes',
+    name: 'CI/CD platforms',
     skills: [
       {
         name: 'Azure DevOps',
@@ -188,10 +188,6 @@ export const skills: SkillGroup[] = [
         name: 'BuildKite',
         level: 0,
       },
-      {
-        name: 'GitLab',
-        level: 0,
-      },
     ],
   },
   {
@@ -207,6 +203,10 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'Amazon Web Services',
+        level: 0,
+      },
+      {
+        name: 'Kubernetes',
         level: 0,
       },
     ],
@@ -248,15 +248,15 @@ export const skills: SkillGroup[] = [
         level: 10,
       },
       {
+        name: 'Swedish',
+        level: 8,
+      },
+      {
         name: 'French',
         level: 7,
       },
       {
         name: 'German',
-        level: 6,
-      },
-      {
-        name: 'Swedish',
         level: 6,
       },
     ],
@@ -281,7 +281,7 @@ export const portfolioItems: PortfolioItem[] = [
   },
   {
     title: 'This website',
-    description: 'Written with TypeScript, Next.js & TailwindCss.',
+    description: 'Reactive static web app with TypeScript, Next.js & TailwindCss.',
     url: 'https://github.com/dragancla/draganworks',
     image: porfolioImage3,
   },
@@ -309,28 +309,56 @@ export const experience: TimelineItem[] = [
   {
     date: 'April 2024 - Present',
     location: 'DraganWorks AB',
-    title: 'Self-employed consultant',
+    title: 'Freelance consultant',
     content: (
       <div>
         <p className="text-left">
           In April 2024 I have started my company DraganWorks AB and have since been working as a freelance consultant.
+          The following were some of my clients:
         </p>
+      </div>
+    ),
+  },
+  {
+    date: 'April 2024 - Present',
+    location: 'Volvo Cars AB',
+    title: 'DevOps & Test Automation Engineer',
+    content: (
+      <div>
+        <p>
+          <b>DEVELOPMENT & TOOLING</b>
+        </p>
+        <p className="text-left my-1">
+          Python, Bash, Robot Framework, Jenkins, GitHub Actions, Microsoft Azure
+        </p>
+        <b>FOCUS AND RESPONSABILITIES</b>
+        <ul className="flex flex-col text-left list-square ml-5">
+          <li>Overhaul the test automation framework with Robot Framework</li>
+          <li>Migrate all the CI pipelines from Jenkins to GitHub Actions</li>
+          <li>Create bash scripts to automate CI processes</li>
+          <li>Implement unit tests, code quality gates, best practices</li>
+          <li>Develop reusable workflows for iOS and Android repositories</li>
+          <li>Implement feature-centric testing (only run tests related to specific code changes)</li>
+          <li>Create reporters that post results via webhooks to Slack</li>
+          <li>Maintain physical in-house CI machines (Mac Minis) and device farms</li>
+          <li>Implement Simulator and Emulator testing scripts and CI workflows</li>
+        </ul>
       </div>
     ),
   },
   {
     date: 'November 2023 - April 2024',
     location: 'Tink AB',
-    title: 'Test Automation & DevOps Consultant',
+    title: 'DevOps & Test Automation Engineer',
     content: (
       <div>
         <p>
-          <b>DEVELOPMENT/TOOLING:</b>
+          <b>DEVELOPMENT & TOOLING</b>
         </p>
         <p className="text-left my-1">
           JavaScript, TypeScript, Java, Pact, Jest, Amazon AWS, GitHub Actions, Buildkite, Kubernetes
         </p>
-        <b>MY FOCUS:</b>
+        <b>FOCUS AND RESPONSABILITIES</b>
         <ul className="flex flex-col text-left list-square ml-5">
           <li>Assess and create a detailed report of Tink's testing practices and suggest improvements</li>
           <li>Build the contract testing framework for frontend and backend services (REST, gRPC and Kafka)</li>
@@ -344,26 +372,26 @@ export const experience: TimelineItem[] = [
   {
     date: 'October 2022 - July 2023',
     location: 'Hallon AB',
-    title: 'Test Automation & DevOps Consultant',
+    title: 'DevOps & Test Automation Engineer',
     content: (
       <div>
         <p>
-          <b>DEVELOPMENT/TOOLING:</b>
+          <b>DEVELOPMENT & TOOLING</b>
         </p>
         <p className="text-left my-1">
           JavaScript, TypeScript, Bash, Python, YAML, Cypress, Jest, Azure DevOps, GitHub, Kubernetes, Microsoft Azure
         </p>
-        <b>MY FOCUS:</b>
+        <b>FOCUS AND RESPONSABILITIES</b>
         <ul className="flex flex-col text-left list-square ml-5">
           <li>Build the test automation framework with Cypress</li>
-          <li>Dockerizing the test automation framework and creating test pipelines in Azure DevOps</li>
+          <li>Dockerize the test automation framework and create test pipelines in Azure DevOps</li>
           <li>Create reporters that post results via webhooks to Slack and build status checks</li>
           <li>Set up infrastructure and deploy testing tools and dashboards via Azure Container Apps</li>
           <li>Infrastructure support for testing locally and in the build pipelines</li>
-          <li>Optimizations and mainteinance of web build and deploy pipelines</li>
-          <li>Creation of build and release pipelines for Apple Testflight and Google Console</li>
-          <li>Maintenence and upgrade of Kubernetes cluster and associated node pools</li>
-          <li>Upgrading and deploying services to Kubernetes</li>
+          <li>CI/CD pipelines optimizations</li>
+          <li>Create app release pipelines to Apple Testflight and Google Console</li>
+          <li>Maintain and upgrade Kubernetes clusters and associated node pools</li>
+          <li>Upgrade and deploy services to Kubernetes</li>
           <li>Set up monitoring and alerts with Prometheus, Grafana and Application Insights</li>
         </ul>
       </div>
@@ -372,21 +400,21 @@ export const experience: TimelineItem[] = [
   {
     date: 'May 2022 - August 2022',
     location: 'CurbFood AB',
-    title: 'Test Automation & DevOps Consultant',
+    title: 'DevOps & Test Automation Engineer',
     content: (
       <div>
         <p>
-          <b>DEVELOPMENT/TOOLING:</b>
+          <b>DEVELOPMENT & TOOLING</b>
         </p>
         <p className="text-left my-1">JavaScript, TypeScript, YAML, Playwright, Jest, GitHub, Kubernetes, GCP</p>
         <p>
-          <b>MY FOCUS:</b>
+          <b>FOCUS AND RESPONSABILITIES</b>
         </p>
         <ul className="flex flex-col text-left list-square ml-5">
           <li>Build the test automation framework with Playwright</li>
           <li>API testing with Jest, SuperTest and Postman</li>
           <li>Build and deploy test infrastructure with Cloud Build and Cloud Run</li>
-          <li>Dockerizing the test automation framework and creating test pipelines in GCP</li>
+          <li>Dockerize the test automation framework and creating test pipelines in GCP</li>
           <li>Create reporters that post results via webhooks to Slack and build status checks</li>
         </ul>
       </div>
@@ -395,15 +423,15 @@ export const experience: TimelineItem[] = [
   {
     date: 'September 2021 - May 2022',
     location: 'Sinch AB',
-    title: 'Test Automation & DevOps Consultant',
+    title: 'DevOps & Test Automation Engineer',
     content: (
       <div>
         <p>
-          <b>DEVELOPMENT/TOOLING:</b>
+          <b>DEVELOPMENT & TOOLING</b>
         </p>
         <p className="text-left my-1">Python, jMeter, GitLab CI, Kubernetes, Flux</p>
         <p>
-          <b>MY FOCUS:</b>
+          <b>FOCUS AND RESPONSABILITIES</b>
         </p>
         <ul className="flex flex-col text-left list-square ml-5">
           <li>SMS and SMTP protocol testing</li>
@@ -418,22 +446,22 @@ export const experience: TimelineItem[] = [
   {
     date: 'March 2021 - September 2021',
     location: 'Klarna AB',
-    title: 'Test Automation & DevOps Consultant',
+    title: 'DevOps & Test Automation Engineer',
     content: (
       <div>
         <p>
-          <b>DEVELOPMENT/TOOLING:</b>
+          <b>DEVELOPMENT & TOOLING</b>
         </p>
         <p className="text-left my-1">
           JavaScript, Groovy, Bash, Cypress, WebdriverIO, Appium, BrowserStack, Jenkins, BitBucket, Kubernetes, AWS
         </p>
-        <b>MY FOCUS:</b>
+        <b>FOCUS AND RESPONSABILITIES</b>
         <ul className="flex flex-col text-left list-square ml-5">
           <li>Upgrading and expanding the automated test frameworks: WebdriverIO and Cypress</li>
           <li>Jenkins pipeline features and maintenence</li>
           <li>React component testing and native app testing</li>
           <li>Tooling support for testing isolated features/packages</li>
-          <li>Adaptive testing support, only run tests related to specific code changes</li>
+          <li>Implement adaptive testing (only run tests related to specific code changes)</li>
         </ul>
       </div>
     ),
@@ -444,8 +472,8 @@ export const experience: TimelineItem[] = [
     title: 'Test Automation & DevOps Engineer',
     content: (
       <p className="text-left my-1">
-        I was employed as a consultant at Regent AB between March 2021 and February 2024 where I had 5 clients, listed
-        above.
+        I was employed as a consultant at Regent AB between March 2021 and February 2024 where I was outsourced to
+        multiple clients.
       </p>
     ),
   },
@@ -456,14 +484,14 @@ export const experience: TimelineItem[] = [
     content: (
       <div>
         <p>
-          <b>DEVELOPMENT/TOOLING:</b>
+          <b>DEVELOPMENT & TOOLING</b>
         </p>
         <p className="text-left my-1">
           JavaScript, Groovy, Bash, Java, YAML, WebdriverIO, Appium, Artillery, SuperTest, Pact, Jenkins, GitHub,
           Kubernetes, GCP
         </p>
         <p>
-          <b>MY FOCUS:</b>
+          <b>FOCUS AND RESPONSABILITIES</b>
         </p>
         <ul className="flex flex-col text-left list-square ml-5">
           <li>Setting up best practices and newest technologies in test automation</li>
@@ -483,21 +511,18 @@ export const experience: TimelineItem[] = [
     content: (
       <div>
         <p>
-          <b>DEVELOPMENT/TOOLING:</b>
+          <b>DEVELOPMENT & TOOLING</b>
         </p>
         <p className="text-left my-1">Proprietary Python framework, Bamboo, BitBucket</p>
         <p>
-          <b>MY FOCUS:</b>
+          <b>FOCUS AND RESPONSABILITIES</b>
         </p>
         <ul className="flex flex-col text-left list-square ml-5">
           <li>Reviewing and commenting on product specifications and designs</li>
           <li>Creating test plans and test cases</li>
           <li>Performing tests against builds and test procedures</li>
           <li>Designing and implementing automated test suites in Python</li>
-          <li>
-            Analyzing various problems which can occur with our products in various market scenarios and identifying the
-            root cause
-          </li>
+          <li>Analyzing multi-market problems and scenarios and identifying the root cause</li>
           <li>Ensuring the product fulfills all target requirements before each release</li>
           <li>Maintaining test automation procedures and best practices in Confluence</li>
         </ul>
@@ -516,7 +541,7 @@ export const testimonial: TestimonialSection = {
       name: 'Mihai Bubulac',
       text: 'I have never met a more analytical person than Anton when it comes to problem solving. He is always looking for ways to improve himself and in a short period, he was promoted from the support department to product testing. Keep up the good work!',
       image:
-        'https://media.licdn.com/dms/image/C4D03AQGKTKygj4YXKg/profile-displayphoto-shrink_800_800/0/1520082621366?e=1698883200&v=beta&t=LNlJEkaks32Tilfxz1kVso83Tb4SVaZeksdy1b-HQPE',
+        'https://media.licdn.com/dms/image/v2/C4D03AQGKTKygj4YXKg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1520082623750?e=1748476800&v=beta&t=2a9Rc9z_EL6HNjNiFmU7oHOFNvho_WQBLeFlA6B_LmQ',
     },
   ],
 };
@@ -551,8 +576,8 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/dragancla'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/anton-dragan'},
-  {label: 'E-mail', Icon: EnvelopeIcon, href: 'mailto:anton@dragan.works'},
-  {label: 'Phone', Icon: DevicePhoneMobileIcon, href: 'tel:+46 70 146 90 74'},
+  { label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/anton-dragan' },
+  { label: 'E-mail', Icon: EnvelopeIcon, href: 'mailto:anton@dragan.works' },
+  { label: 'Phone', Icon: PhoneIcon, href: 'tel:+46 70 146 90 74' },
+  { label: 'Github', Icon: GithubIcon, href: 'https://github.com/dragancla' },
 ];
